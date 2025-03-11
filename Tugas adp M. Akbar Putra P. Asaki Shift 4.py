@@ -1,14 +1,14 @@
 menu_film = {
-    "01": {"judul": "1 jurusan 7 laprak          ", "harga": 100000},
-    "02": {"judul": "ganteng ganteng jodohku     ", "harga": 100000},
-    "03": {"judul": "manusia terakhir di kampus  ", "harga": 100000},
-    "04": {"judul": "aku, kamu, dan 10 sks       ", "harga": 100000},
-    "05": {"judul": "harga yang tak pasti        ", "harga": 100000},
-    "06": {"judul": "kampus power rangers        ", "harga": 100000},
-    "07": {"judul": "sistem kebut semalam        ", "harga": 100000},
-    "08": {"judul": "aku diam-diam gamon         ", "harga": 100000},
-    "09": {"judul": "I'AM STEVE                  ", "harga": 100000},
-    "10": {"judul": "tukang sate madura naik haji", "harga": 100000}
+    "01": {"judul": "1 jurusan 7 laprak          ", "harga": 44000},
+    "02": {"judul": "ganteng ganteng jodohku     ", "harga": 55000},
+    "03": {"judul": "manusia terakhir di kampus  ", "harga": 60000},
+    "04": {"judul": "aku, kamu, dan 10 sks       ", "harga": 78000},
+    "05": {"judul": "harga yang tak pasti        ", "harga": 90000},
+    "06": {"judul": "kampus power rangers        ", "harga": 99000},
+    "07": {"judul": "sistem kebut semalam        ", "harga": 65000},
+    "08": {"judul": "aku diam-diam gamon         ", "harga": 84000},
+    "09": {"judul": "I'AM STEVE                  ", "harga": 32000},
+    "10": {"judul": "tukang sate madura naik haji", "harga": 85000}
 }
 print("================FILM BIOSKOP YANG SEDANG TAYANG================")
 for kode, data in menu_film.items():
