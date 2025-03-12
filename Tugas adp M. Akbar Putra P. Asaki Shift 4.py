@@ -1,47 +1,53 @@
-menu_film = {
-    "01": {"judul": "1 jurusan 7 laprak          ", "harga": 44000},
-    "02": {"judul": "ganteng ganteng jodohku     ", "harga": 55000},
-    "03": {"judul": "manusia terakhir di kampus  ", "harga": 60000},
-    "04": {"judul": "aku, kamu, dan 10 sks       ", "harga": 78000},
-    "05": {"judul": "harga yang tak pasti        ", "harga": 90000},
-    "06": {"judul": "kampus power rangers        ", "harga": 99000},
-    "07": {"judul": "sistem kebut semalam        ", "harga": 65000},
-    "08": {"judul": "aku diam-diam gamon         ", "harga": 84000},
-    "09": {"judul": "I'AM STEVE                  ", "harga": 32000},
-    "10": {"judul": "tukang sate madura naik haji", "harga": 85000}
-}
-print("================FILM BIOSKOP YANG SEDANG TAYANG================")
-for kode, data in menu_film.items():
-    print(f"|  {kode}  | {data["judul"]}             | Rp{data["harga"]} |")
-print("===============================================================")
+print('========== Daftar Film ===========')
+print(f'1 = BOLANG THE MOVIE    Rp 50000')
+print(f'2 = MalinG kandang      Rp 40000')
+print(f'3 = Kampus Rangers      Rp 65000')
+print(f'4 = Indonesia Emas 2045 Rp 80000') 
+print(f'5 = Tiktok 2.0          Rp 30000')
+print('==================================')
 
-nama = input("kenalan dulu yuk kak (masukan nama) : ")
-kode = input(f"masukin kode film yang mau di tonton ya {nama} (01,02,...,10) : ")
-jumlah = int(input(f"berapa banyak tiketnya {nama} : "))
+nama = input("Kenalan Dulu yuk kak :) (masukan nama): ")
+kode = int(input(f"Masukan kode film nya ya {nama} (1,2,...,5): "))
+jumlah = int(input(f"Mau berapa tiket {nama}: "))
 
-satuan = menu_film[kode]["harga"]
-total_harga = satuan*jumlah
+satuan = 0
+judul = ""
 
-if total_harga > 250000 :
-    diskon = 0.35*total_harga
-elif total_harga > 100000 :
-    diskon = 0.15*total_harga
+if kode == 1:
+        satuan = 50000
+        judul = "BOLANG THE MOVIE"
+elif kode == 2:
+        satuan = 40000
+        judul = "MalinG kandang"
+elif kode == 3:
+        satuan = 65000
+        judul = "Kampus Rangers"
+elif kode == 4:
+        satuan = 80000
+        judul = "Indonesia Emas 2045"
+elif kode == 5:
+        satuan = 30000
+        judul = "Tiktok 2.0"
 else :
+       print(f"Kepada {nama} yang terhormat, masukan kode filmnya sesuai yang tertera di atas ya:")
+      
+total_harga = jumlah * satuan
+diskon = 0
+
+if total_harga > 250000:
+    diskon = total_harga * 0.35
+elif total_harga > 100000:
+    diskon = total_harga * 0.15
+else:
     diskon = 0
 
-harga_setelah_diskon = total_harga - diskon
+total_bayar = total_harga - diskon
 
-print("===========STRUK PEMBELIAN TIKET===========")
-print(f"nama                 : {nama}")
-print(f"Judul Film           : {menu_film[kode]["judul"]}")
-print(f"Jumlah Tiket         : {jumlah}")
-print(f"Harga Satu Tiket     : Rp{satuan}")
-print(f"Total Sebelum Diskon : Rp{total_harga}")
-print(f"Diskon               : Rp{(diskon)}")
-print(f"Total                : Rp{(harga_setelah_diskon)}")
-print("===========================================")
-print("              SELAMAT MENONTON")
-print(f"                 ==={nama}===")
-print("           Kasih Bintang Lima yak")
-print("             untuk Bioskop kami")
-print("================TERIMA KASIH===============")
+print('========= Struk Pemesanan Tiket =========')
+print(f'Nama           : {nama}')
+print(f'Judul Film     : {judul}')
+print(f'Jumlah Tiket   : {jumlah}')
+print(f'Harga Satuan   : Rp {satuan}')
+print(f'Potongan Harga : Rp {diskon}')
+print(f'Total Harga    : Rp {total_bayar}')
+print('=========================================')
