@@ -1,0 +1,16 @@
+Rifqa Humaira Zumarni,2410431001,A,Perlengkapan,85,Perlengkapan
+Yazid Riyanda Putra,2410431005,C,ketua Perlengkapan,90,Perlengkapan
+Muhammad Arifin Ilham,2410431008,B,acara,80,Danus
+Aysi Fitria,2410431013,A,danus,70,Danus
+Naila Farizka,2410431016,KBI,ketua pubdok,90,Pubdok
+Sarah Asyifa Rahma,2410431018,B,Danus,88,acara
+Lexania Nazila,2410431019,A,danus,85,Danus
+Mutiara Hasanah,2410431023,A,Perlengkapan,92,Perlengkapan
+Anggya Fadhilla,2410431028,B,Ketua acara,92,acara
+Gibran Ramadhan,2410431032,B,acara,88,pubdok
+Muhammad Sultan Dandi Pratama,2410432016,C,acara,86,Perlengkapan
+Rahmatul Dea Putri,2410432042,B,Danus,80,pubdok
+Deeya Ishmah Khairany,2410432006,C,Danus,88,Pubdok
+Shalsya Adina Marsya,2410432009,A,Perlengkapan,85,danus
+Dicky Rivaldi Kurniawan,2410432031,A,acara,90,acara
+Fidellma Ilamiati Taufik,2410432038,B,Perlengkapan,83,acara
